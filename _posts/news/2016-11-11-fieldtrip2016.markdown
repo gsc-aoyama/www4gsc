@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "GSC Field Trip 2016 Autumn 日光に行ってきました！"
+date:   2016-11-11 16:14:52 +0900
+category: jekyll update
+---
+
+<!-- img src="{{ '/assets/images/v1/201８/01/image3-720x540.jpeg' | relative_url }}" alt=""-->
+
+留学生と地球社会共生学部の学生が毎年２回様々な場所に訪れ、日本の歴史と文化を学ぶバスツアー「 GSC Field Trip」を実施しました。
+今回の舞台は世界遺産・日光。10月28日から1泊2日の行程で、東照宮、中禅寺湖、華厳の滝、中禅寺湖、そして日光江戸村を回ってきました。
+文化的遺産では日本の伝統文化に触れ、紅葉といった自然の風景からは、日本の四季を体感しました。
+あわせて、1泊2日共に行動することで、学生間の距離も一層緊密なものになりました。
+
+(2016.11.11)
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

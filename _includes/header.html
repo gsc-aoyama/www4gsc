@@ -1,0 +1,76 @@
+<header id="header" class="s-header">
+  <div class="row">
+    <div class="columns">
+      <h1 class="h-logo"><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/header_logo.png' | relative_url }}" alt="{{ site.title | escape }}"></a></h1>
+      <section class="m-header_nav" js-hamburger>
+        <a href="javascript:void(0)" class="m-hamburger_btn" js-hamburger_btn>
+          <div></div><div></div><div></div>
+        </a>
+        <nav class="m-hamburger_content" js-hamburger_content>
+          <div class="gmenu">
+            <ul class="header_left">
+              {% assign current = '' %}
+              {% if page.layout == 'home' %}
+              {% assign current = 'current' %}
+              {% endif %}
+              <li class="{{current}}"><a href="{{ '/' | relative_url }}">ホーム</a></li>
+              {% assign default_paths = site.pages | map: "path" %}
+              {% assign page_paths = site.header_pages | default: default_paths %}
+              {% if page_paths %}
+              {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% assign current = '' %}
+                {% if page.category == my_page.category %}
+                {% assign current = 'current' %}
+                {% endif %}
+                {% if my_page.title %}
+                  <li class="{{my_page.title}} {{current}}"><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                {% endif %}
+              {% endfor %}
+              {% endif %}
+              <!--<li class="{{ page.id }}"><a href="https://gsc-aoyama.github.io/www4i18n/"><i class="icon -international"></i>For International Students</a></li>-->
+              <li class="{{ page.id }}"> </li>
+
+            </ul>
+          </div>
+          <ul class="header_right">
+            <li class="hr1"><a href="http://www.aoyama.ac.jp/outline/reference.html" target="_blank"><i class="icon -reference"></i>資料請求</a></li>
+            <li class="hr2"><a href="{{ '/general/contact/' | relative_url }}"><i class="icon -contact"></i>お問い合わせ</a></li>
+            <li class="hr3"><a href="http://www.aoyama.ac.jp/" target="_blank"><i class="icon -aoyama"></i>青山学院大学</a></li>
+            <li class="hr4"><a href="https://frompage.pluginfree.com/weblish/frompage/4200302642/index.shtml?rep=1" target="_blank"><i class="icon -reference"></i>デジタルパンフレット</a></li>
+            <li class="hr5"><a href="https://gsc-aoyama.github.io/www4i18n/"><i class="icon -international"></i>For International Students</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </div>
+  <div class="wrapper hide">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <a class="site-title" href="{{ '/'' | relative_url }}">{{ site.title | escape }}</a>
+
+    {% if page_paths %}
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
+  </div>
+</header>

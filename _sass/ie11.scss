@@ -1,0 +1,29 @@
+@media all and (-ms-high-contrast:none){
+  *::-ms-backdrop, * {
+  }
+  *::-ms-backdrop, .m-hamburger_content {
+    display: block !important;
+    position: static;
+    width: 100%;
+  }
+  *::-ms-backdrop, .m-hamburger_content {
+    display: block !important;
+    position: static;
+    width: 100%;
+    padding-top: 10px !important;
+  }
+  *::-ms-backdrop, .m-hamburger_content ul li {
+    float: left;
+    width: auto !important;
+  }
+  *::-ms-backdrop, #header nav ul a .icon {
+    top: -4px;
+  }
+  *::-ms-backdrop, #header nav ul a .-reference.icon,
+  *::-ms-backdrop, #header nav ul a .-exam.icon {
+    top: -5px;
+  }
+  *::-ms-backdrop, #header nav ul a .-contact.icon {
+    top: -10px;
+  }
+}

@@ -1,0 +1,84 @@
+---
+layout: default
+---
+{% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
+<div class="row">
+  <div class="medium-8 large-8 columns">
+    <section id="content">
+      <header class="content-header">
+        <div class="row">
+          <div class="columns">
+            {% assign parent_paths = page.permalink  | replace_first: '/','' | split: '/' %}
+            {% assign parent_paths_first = parent_paths | last %}
+            {% if page.category != 'general' and page.category != parent_paths_first %}
+            <ul class="list-breadcrumb">
+              {% assign path = '/' %}
+              {% for parent_path in parent_paths %}
+              {% assign path = path | append: parent_path | append:'/' %}
+              {% if page.permalink != path %}
+              {% assign parent_page = category_pages | where: "permalink", path | first %}
+              <li>
+                <a href="{{parent_page.url}}">{{parent_page.title}}</a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+            {% endif %}
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.lead %}
+            <p class="lead">{{ page.lead | escape }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </header>
+      <section class="content-section">
+        <div class="row">
+          <div class="columns">
+            {{ content }}
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+  <div class="medium-4 large-4 columns">
+    <aside id="aside">
+     <div class="{{page.category}}">
+       <ul class="list-menu">
+         <li class="campus"><a href="./" alt="学生生活">学生生活</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/life/expenses/" alt="学費について" target="_blank">学費について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/health/dormitory/dormitory_sagamihara.html" alt="学生寮について" target="_blank">学生寮について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship_prospective/" alt="奨学金制度（受験生向け）" target="_blank">奨学金制度（受験生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship/" alt="奨学金制度・経済援助（在学生向け）" target="_blank">奨学金制度・経済援助（在学生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/schooltime/" alt="授業・定期試験・学習" target="_blank">授業・定期試験・学習</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/volunteer/" alt="ボランティア活動" target="_blank">ボランティア活動</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/procedure/certificate/" alt="各種証明書・手続き" target="_blank">各種証明書・手続き</a></li>
+      </ul>
+
+     {% if category_pages %}
+      {{category_pages.length}}
+       <ul class="list-menu">
+       {% for category_page in category_pages %}
+         {% if category_page and category_page.sort  %}
+         <li>
+           <a href="{{ category_page.url | relative_url }}">
+             {{ category_page.title | escape }}
+           </a>
+         </li>
+         {% endif %}
+       {% endfor %}
+      </ul>
+     {% endif %}
+     </div>
+
+     <div class="facebook">
+       <div class="fb-page" data-href="https://www.facebook.com/aoyamagsc/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote></div>
+     </div>
+     <ul class="share">
+       <li><a href="https://www.facebook.com/aoyamagsc/" target="_blank"><i class="icon -facebook"></i></a></li>
+       <li><a href="https://twitter.com/search?src=typd&q=%23AoyamaGSC" target="_blank"><i class="icon -twitter"></i></a></li>
+     </ul>
+    </aside>
+  </div>
+</div>
+
+

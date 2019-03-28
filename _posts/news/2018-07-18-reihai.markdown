@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "相模原キャンパスでオープンキャンパスを行いました"
+date:   2018-07-25 12:58:52 +0900
+category: jekyll update
+---
+
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/OC_IMG_0907.JPG" width="600">
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/OC_IMG_0908.JPG" width="600">
+
+2018年7月15 日、相模原キャンパスでオープンキャンパスを行いました。升本潔教授による地球社会共生学部の学部紹介は、満席になるなど、大変盛況でした。また学部独自企画として、升本潔教授、齋藤大輔助教、グレゴリー・ケズナジャット助教、石塚彩助教が自らの異文化体験を話す、座談会を開催しました。
+
+(2018.07.25)
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "GSC3期生の留学出発が始まりました"
+date:   2018-08-13 11:46 
+category: jekyll update
+---
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/20180813_Mahidol.jpg" width="600">
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/2018-08-06-thammasart3.jpg" width="600">
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/P1070260.JPG" width="600">
+
+早いもので３期生の留学派遣が始まっています。
+8月3日はカセサート大学、8月6日はタマサート大学、8月9日はチュラーロンコーン大学、そして8月13日はマヒドン大学に留学する学生たちが飛び立ちました。
+今後も派遣先に応じて、それぞれ出発します。
+ 
+異文化の中で多くの知識と経験を得て、無事に帰国することを教職員一同願っています！
+
+(2018.08.13)
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
