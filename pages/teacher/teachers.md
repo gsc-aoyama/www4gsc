@@ -38,8 +38,12 @@ sort: 2
 </li>
 <li>
   <div class="text">
-    <p class="name"><span class="jp">桒野 淳一</span><br><span class="en">Junichi KUWANO</span></p>
-    <p class="credit"><span>教授</span><br><span>文化人類学</span></p>
+    <p class="name"><span class="jp">桑島 京子</span><br><span class="en">Kyoko KUWAJIMA</span></p>
+    <p class="credit"><span>教授</span><br><span>国際協力論 / 国際開発論 / 社会開発論</span></p>
+    <p class="message"><strong>受験生への一言</strong><br />長年にわたり、途上国に対する開発援助に取り組んできました。援助は一方的に寄付や、施設建設、技術の供与を行うことではなく、日本からの支援が途上国の努力や改革コミットメントに寄り沿って伴走して初めて実を結ぶ、という双方向の関係にあります。援助することは日本の問題の解決にもつながります。国際協力について、ともに学びませんか。</p>
+    <ul>
+      <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymkdgssgggy" target="_blank">プロフィール・主要研究業績</a></li>
+    </ul>
   </div>
 </li>
 <li>
