@@ -16,7 +16,6 @@ sort: 3
 *   [教員紹介][teacher]
     *   [教員一覧][teacher/teachers]
     *   [教員インタビュー][teacher/interview]
-    *   [模擬授業][teacher/triallesson]
     *   [刊行物][teacher/publications]
 *   [学生生活][campus]
     *   <a href="http://www.aoyama.ac.jp/life/expenses/" target="_blank" class="pop">学費について</a>
@@ -52,7 +51,6 @@ sort: 3
 [teacher]: {{ '/teacher/' | relative_url }}
 [teacher/teachers]: {{ '/teacher/teachers/' | relative_url }}
 [teacher/interview]: {{ '/teacher/interview/' | relative_url }}
-[teacher/triallesson]: {{ '/teacher/triallesson/' | relative_url }}
 [teacher/publications]: {{ '/teacher/publications/' | relative_url }}
 [campus]: {{ '/campus/' | relative_url }}
 [studyabroad]: {{ '/studyabroad/' | relative_url }}

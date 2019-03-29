@@ -38,16 +38,6 @@ sort: 2
 </li>
 <li>
   <div class="text">
-    <p class="name"><span class="jp">桑島 京子</span><br><span class="en">Kyoko KUWAJIMA</span></p>
-    <p class="credit"><span>教授</span><br><span>国際協力論 / 国際開発論 / 社会開発論</span></p>
-    <p class="message"><strong>受験生への一言</strong><br />長年にわたり、途上国に対する開発援助に取り組んできました。援助は一方的に寄付や、施設建設、技術の供与を行うことではなく、日本からの支援が途上国の努力や改革コミットメントに寄り沿って伴走して初めて実を結ぶ、という双方向の関係にあります。援助することは日本の問題の解決にもつながります。国際協力について、ともに学びませんか。</p>
-    <ul>
-      <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymkdgssgggy" target="_blank">プロフィール・主要研究業績</a></li>
-    </ul>
-  </div>
-</li>
-<li>
-  <div class="text">
     <p class="name"><span class="jp">桒野 淳一</span><br><span class="en">Junichi KUWANO</span></p>
     <p class="credit"><span>教授</span><br><span>文化人類学</span></p>
   </div>
@@ -126,7 +116,7 @@ sort: 2
 <li>
   <div class="text">
     <p class="name"><span class="jp">樺島 榮一郎</span><br><span class="en">Eiichiro KABASHIMA</span></p>
-    <p class="credit"><span>准教授</span><br><span>コンテンツ産業論</span></p>
+    <p class="credit"><span>教授</span><br><span>コンテンツ産業論</span></p>
     <p class="message"><strong>受験生への一言</strong><br />僕の専門はメディア研究です。現在、インターネットがメディアの世界だけでなく、国家や世界のあり方も変えつつあります。個人に着目しても、人生とは結局、体験＝情報ですから、衣食住足りた人々が増加するこれからの社会で、メディアや情報がさらに重要になることは疑いありません。そんなメディアを一緒に考えてみませんか。</p>
     <ul>
       <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymdggeyoggy" target="_blank">プロフィール・主要研究業績</a></li>
@@ -136,7 +126,7 @@ sort: 2
 <li>
   <div class="text">
     <p class="name"><span class="jp">菊池 尚代</span><br><span class="en">Hisayo KIKUCHI</span></p>
-    <p class="credit"><span>准教授</span><br><span>メディア論 / 英語教育</span></p>
+    <p class="credit"><span>教授</span><br><span>メディア論 / 英語教育</span></p>
     <p class="message"><strong>受験生への一言</strong><br />私の専門は「ことば」です。私たちの生活に当然のように存在する「ことば」ですが、話し手、聞き手の理解は必ずしも同じとは限りません。例えば英語の広告メッセージや映画タイトルは文化や国によってどう変化しているでしょう。メディアの発展や共通語としての英語の普及に伴ってさらに高まる「ことば」の不思議を一緒に解明しませんか。</p>
     <ul>
       <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymisgkykggy" target="_blank">プロフィール・主要研究業績</a></li>
@@ -146,7 +136,7 @@ sort: 2
 <li>
   <div class="text">
     <p class="name"><span class="jp">小堀 真</span><br><span class="en">Makoto KOBORI</span></p>
-    <p class="credit"><span>助教</span><br><span>宗教社会学 / 社会調査法</span></p>
+    <p class="credit"><span>准教授</span><br><span>宗教社会学 / 社会調査法</span></p>
     <ul>
       <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymddygysggy" target="_blank">プロフィール・主要研究業績</a></li>
     </ul>
@@ -155,7 +145,7 @@ sort: 2
 <li>
   <div class="text">
     <p class="name"><span class="jp">齋藤 大輔</span><br><span class="en">Daisuke SAITO</span></p>
-    <p class="credit"><span>助教</span><br><span>東南アジア地域研究 / 文化人類学</span></p>
+    <p class="credit"><span>准教授</span><br><span>東南アジア地域研究 / 文化人類学</span></p>
     <p class="message"><strong>受験生への一言</strong><br />現在、日本では多くの東南アジアからの観光客を目にするようになっています。しかし、欧米と比較するとまだまだ「遠い」存在でもあると感じています。グローバルな世界の中で生きる私たちに必要なことの一つは、グローバル＝欧米だけではなく、他の地域にも目を向ける視点と知識を養うことではないでしょうか。私は東南アジアという地域を中心に共に考えていけたらと思います。</p>
     <ul>
       <li><a href="http://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymdigyygggy" target="_blank">プロフィール・主要研究業績</a></li>

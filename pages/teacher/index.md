@@ -11,10 +11,8 @@ sort: 1
 {:.list-links}
 *   [教員一覧][teachers]
 *   [教員インタビュー][interview]
-*   [模擬授業][triallesson]
 *   [刊行物][publications]
 
 [teachers]: {{ '/teacher/teachers/' | relative_url }}
 [interview]: {{ '/teacher/interview/' | relative_url }}
-[triallesson]: {{ '/teacher/triallesson/' | relative_url }}
 [publications]: {{ '/teacher/publications/' | relative_url }}
