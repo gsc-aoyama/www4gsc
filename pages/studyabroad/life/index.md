@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_studyabroad
 title: 留学生活
 permalink: /studyabroad/life/
 category: studyabroad

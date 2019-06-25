@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
+<div class="row">
+<div class="medium-3 large-3 columns">
+    <aside id="aside"></aside>
+  </div>
+  <div class="medium-9 large-9 columns">
+    <section id="content">
+      <header class="content-header">
+        <div class="row">
+          <div class="columns">
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.lead %}
+            <p class="lead">{{ page.lead | escape }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </header>
+      <section class="content-section">
+        <div class="row">
+          <div class="columns">
+          <aside id="aside">
+          <ul class="list-news">
+            {% for post in paginator.posts %}
+          <li><a href="{{ post.url | relative_url }}">
+              <span class="date">{{ post.date | date: "%Y.%m.%-d" }}</span>
+              <p>{{ post.title | escape }}</p>
+              </a>
+          </li>
+        {% endfor %}
+      </ul>
+      </aside>
+          </div>
+        </div>
+      </section>
+    </section>
+<!--pagination-->
+{% if paginator.total_pages > 1 %}
+<div class="paginator">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">
+        <span class="paginator-box">&laquo; 前へ</span>
+    </a>
+    {% else %}
+    <span class="paginator-box">&laquo; 前へ</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <em class="paginator-box current">{{ page }}</em>
+    {% elsif page == 1 %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">
+        <em class="paginator-box">{{ page }}</em>
+    </a>
+    {% else %}
+    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+        <em class="paginator-box">{{ page }}</em>
+    </a>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">
+        <span class="paginator-box">次へ &raquo;</span>
+    </a>
+    {% else %}
+    <span class="paginator-box">次へ &raquo;</span>
+    {% endif %}
+</div>
+{% endif %}
+<!--end pagination-->
+</div>
+</div>
+
+

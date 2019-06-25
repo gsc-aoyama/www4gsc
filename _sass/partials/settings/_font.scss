@@ -4,11 +4,11 @@ $get-scale: map-get($modular-scale, scale-0);
 $size: map-get($get-scale, zeta) * 1px;
 
 // Japanese Sans-Serif Normal
-$font-family-sans-serif: "YakuHanJP", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+$font-family-sans-serif: "メイリオ","Meiryo","YakuHanJP", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",  sans-serif;
 $font-weight-sans-serif: normal;
 
 // Japanese Sans-Serif Bold
-$font-family-sans-serif-bold: "YakuHanJP", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+$font-family-sans-serif-bold:"メイリオ", Meiryo","YakuHanJP", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro"," sans-serif;
 $font-weight-sans-serif-bold: bold;
 
 // Japanese Serif Normal

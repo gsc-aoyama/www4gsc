@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page_career
 title: 想定される卒業後の進路
 permalink: /career/course/
 category: career
-sort: 5
+sort: 2
 ---
 
 #### 海外に関わるあらゆる分野での活躍が期待されます。

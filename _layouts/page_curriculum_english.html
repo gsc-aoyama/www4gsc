@@ -1,0 +1,82 @@
+---
+layout: default
+---
+{% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
+{% include category_curriculum.html %}
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    <aside id="aside">
+     <div class="{{page.category}}">
+       <ul class="list-menu">
+         <li class="campus"><a href="./" alt="学生生活">学生生活</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/life/expenses/" alt="学費について" target="_blank">学費について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/health/dormitory/dormitory_sagamihara.html" alt="学生寮について" target="_blank">学生寮について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship_prospective/" alt="奨学金制度（受験生向け）" target="_blank">奨学金制度（受験生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship/" alt="奨学金制度・経済援助（在学生向け）" target="_blank">奨学金制度・経済援助（在学生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/schooltime/" alt="授業・定期試験・学習" target="_blank">授業・定期試験・学習</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/volunteer/" alt="ボランティア活動" target="_blank">ボランティア活動</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/procedure/certificate/" alt="各種証明書・手続き" target="_blank">各種証明書・手続き</a></li>
+      </ul>
+
+     {% if category_pages %}
+      {{category_pages.length}}
+       <ul class="list-menu">
+       {% for category_page in category_pages %}
+         {% if category_page and category_page.sort  %}
+         <li>
+           <a href="{{ category_page.url | relative_url }}">
+             {{ category_page.title | escape }}
+           </a>
+         </li>
+         {% endif %}
+       {% endfor %}
+      </ul>
+     {% endif %}
+     </div>
+    </aside>
+  </div>
+  <div class="medium-9 large-9 columns">
+    <section id="content">
+      <header class="content-header">
+        <div class="row">
+          <div class="columns">
+            {% assign parent_paths = page.permalink  | replace_first: '/','' | split: '/' %}
+            {% assign parent_paths_first = parent_paths | last %}
+            {% if page.category != 'general' and page.category != parent_paths_first %}
+            {% endif %}
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.lead %}
+            <p class="lead">{{ page.lead | escape }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </header>
+      <section class="content-section">
+          <div class="row">
+              <div class="columns">
+                  {{ content }}
+
+                  <h4>コミュニケーションツールとしての英語の習得を目標に、インテンシブかつアカデミックな英語教育を展開しています。</h4>
+                  <p><img src="{{ '/assets/images/v1/2019/curriculum_english.jpg' | relative_url }}" alt="英語教育 授業風景" class="right40" >留学のためには英語能力が求められますが、GSCでは留学のためだけではなく、留学も含めた大学の4年間を通して英語能力の向上に取り組んでいます。<br />
+                      まず、留学に必要な英語の4技能「聞く・話す・読む・書く」を徹底して習得するために、一年次は10段階のレベル別に分かれた少人数クラスで、ネイティブ講師による授業「Academic English Ⅰ・Ⅱ」(必修)が週6コマ(90分／回)行われます。<br />
+                      留学の出願に必要な英語資格試験(IELTS)のスコアを上げるために、4技能を高めることを主目的とした授業内容です。また、学生は本学部の補助にて2回のIELTS試験を受験することができ、自分の英語力を確認することができます。<br />
+                      留学前の2年次前期には、留学先大学で英語の授業に対応できるよう、ディスカッション能力やレポート作成能力、英文読解力などのアカデミックスキルを高める授業「Academic English(Applied Skills)」(必修)が週4コマ(90分／回)行われます。<br />
+                      そして留学後、進学や就職などに向けてさらに英語力に磨きをかけたい学生は、主に3年次以降に配置されている専門的な英語能力を強化する科目「Practical Essay Writing Ⅰ・Ⅱ」「Practical English Workshop Ⅰ・Ⅱ」のそれぞれ2段階のレベル別クラスを履修することができます。</p>
+                     
+
+                  <h2>徹底した英語資格テスト対策</h2>
+                  <p>一年次前期のうちに学部留学に必要な英語資格スコアの取得をめざします。テストに不安をもつ学生のために、課外授業として対策講座も設置し、多くの学生が受講しています。</p>
+
+                  <div id="collabo">
+                      <h3 id="section">IELTS</h3>
+                      <p>海外留学や海外移住で必要な英語力を判断するための英語資格テストのひとつです。1年次前期には本学部生全員を対象にテストを実施し、2年次後期の学部留学に求められるスコアの取得をめざします。</p>
+                      <h3 id="section-1">TOEIC&#174;</h3>
+                      <p>英語によるコミュニケーション能力を幅広く評価する世界共通のテストです。本学部生全員を対象に入学時、1・3年次の終わりにテストを実施し、英語力の伸びを確認しています。入学時から1年間でTOEIC&#174;100点アップを目標にしています。</p>
+                  </div>
+
+              </div>
+          </div>
+      </section>
+      </section>
+      </div>
+      </div>

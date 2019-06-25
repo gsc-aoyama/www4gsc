@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_teacher
 title: 刊行物
 permalink: /teacher/publications/
 category: teacher

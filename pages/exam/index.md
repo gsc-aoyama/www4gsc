@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_exam
 title: 入試情報
 permalink: /exam/
 category: exam

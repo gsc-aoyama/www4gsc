@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page_studyabroad
 title: よくあるご質問（FAQ）
 permalink: /studyabroad/faq/
 category: studyabroad
-sort: 7
+sort: 3
 ---
 
 {:.list-links.oneline}
@@ -80,7 +80,7 @@ A3-1：学部間協定留学の場合は、渡航費、保険費、ビザ申請�
 A3-2：生活費は留学先国や個人差があるのでおおよその目安ですが、渡航費を含め、全体（5か月）で約50万円ほどが必要となります（為替レートや物価変動により変わる可能性があります）。
 
 ### Q3-3：留学時の安全対策はどうなっていますか？
-A3-3：学部間協定留学については、本学部、危機管理会社、保険会社、タイ・マレーシアの医療専門機関が連携して、学生の安全管理を図る体制となっています。[留学派遣の継続・中止・途中帰国ガイドライン](https://gsc-aoyama.github.io/www4gsc/studyabroad/guideline/)もご参照ください。
+A3-3：学部間協定留学については、本学部、危機管理会社、保険会社、タイ・マレーシアの医療専門機関が連携して、学生の安全管理を図る体制となっています。[留学派遣の継続・中止・途中帰国ガイドライン][link1]もご参照ください。
 
 <ul class="studyabroad_faq">
 	<li>　大学間協定留学については、該当するリンク（<a href="http://web.iec.aoyama.ac.jp/studyabroad/safety" alt="青山から海外へ＞協定校留学" target="_blank">青山から海外へ＞協定校留学</a>）をご参照ください。</li>
@@ -92,3 +92,4 @@ A3-3：学部間協定留学については、本学部、危機管理会社、�
 
 本内容は、2018年6月現在の情報に基づくものです。今後変更となることがあります。
 
+[link1]: {{ '/studyabroad/guideline/' | relative_url }}
