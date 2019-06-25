@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "The field trip to Asakusa and Edo-Tokyo museum, “Discover Edo period Japan with Kimono Experience”!"
+date:   2019-06-24 10:00 
+category: jekyll update
+---
+交換留学生とGSC日本人学生が参加したフィールドトリップを実施しました。
+今回は “Discover Edo period Japan with Kimono Experience”と題して、江戸東京博物館と浅草を訪問しました。
+
+<img src="{{ '/assets/images/v1/2019/06/2019Asakusa_FT01.jpg' | relative_url }}" alt="Group Photo at The field trip01">
+<img src="{{ '/assets/images/v1/2019/06/2019Asakusa_FT02.jpg' | relative_url }}" alt="Group Photo at The field trip02">
+
+江戸東京博物館では、学生たちは事前に配布されたクイズの答えを探す形式で、江戸時代の文化や産業に関する知識を深めることができました。
+また浅草では、学生たちは着物に着替え、浅草寺などを散策しました。
+着物姿の学生たちは外国人観光客に大人気で、まるで映画スターのような視線を受けていました！
+
+参加者にとっては、日本文化を感じ、体験することのできた素晴らしい1日になったようでした。
+
+<img src="{{ '/assets/images/v1/2019/06/2019Asakusa_FT03.jpg' | relative_url }}" alt="Group Photo at The field trip03">
+
+
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_general
 title: 交通アクセス
 permalink: /general/access/
 category: general

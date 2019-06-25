@@ -1,89 +1,20 @@
 ---
 layout: default
 ---
+<ul class="slider">
+  <li><a href="{{ '/introduction/' | relative_url }}"><img src="{{ '/assets/images/v1/2019/home_cover_01.jpg' | relative_url }}" alt="学部紹介"></a></li>
+  <li><a href="{{ '/curriculum/' | relative_url }}"><img src="{{ '/assets/images/v1/2019/home_cover_02.jpg' | relative_url }}" alt="カリキュラム"></a></li>
+  <li><a href="{{ '/studyabroad/' | relative_url }}"><img src="{{ '/assets/images/v1/2019/home_cover_03.jpg' | relative_url }}" alt="留学制度"></a></li>
+  <li><a href="{{ '/career/' | relative_url }}"><img src="{{ '/assets/images/v1/2019/home_cover_04.jpg' | relative_url }}" alt="就職・キャリア"></a></li>
+</ul>
 
-<section class="page-section s-cover">
-  <section class="content-section">
-    <div class="row">
-      <div class="columns">
-        <p><span>国境を</span><span>越える</span><span>学びで、</span><span>共に</span><span>生きる</span><span>力を</span></p>
-      </div>
-    </div>
-    <div class="catch">
-      <p>青山学院大学 地球社会共生学部は、社会科学系の幅広い学問基盤のもと、<br>「共生マインド」を体得したうえで、専門能力を身につけるグローバル系の学部です。<br>カリキュラムや入試情報などを掲載しています。</p>
-    </div>
-  </section>
-</section>
 <div class="row">
-  <div class="medium-8 large-8 columns">
-    {{ content }}
-    
-    <!--学部長インタビュー ここから-->
-    <div class="topic">
-      <div class="image">
-        <a href="./introduction/interview/"><img src="./assets/images/masumoto_kiyoshi_740x400.jpg" alt="地球社会共生学部　学部長　升本潔　教授"></a>
-      </div>
-      <div class="text">
-        <a href="./introduction/interview/">
-          <h2>学部長インタビュー</h2>
-        </a>
-        <p class="description">地球社会共生学部ではどのようなことを学び、どのようなことを修得できるのでしょうか。<br>学ぶことの意義やカリキュラムの特色、半期留学、課外活動から進学、就職まで、4年間を有意義に過ごすためのお話を升本 潔学部長に伺いました。</p>
-      </div>
-    </div>
-     <!--学部長インタビュー ここまで-->
-     
-    <ul class="list-pannel">
-      <li>
-        <a href="{{ '/introduction/' | relative_url }}">
-          <div class="image">
-            <img src="{{ '/assets/images/v1/2015/03/pickup_about.jpg' | relative_url }}" alt="">
-          </div>
-          <div class="text">
-            <p><strong>地球社会共生学部とは</strong></p>
-          </div>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/teacher/interview/' | relative_url }}">
-          <div class="image">
-            <img src="{{ '/assets/images/pickup_teacher_int.jpg' | relative_url }}" alt="">
-          </div>
-          <div class="text">
-            <p><strong>教員インタビュー</strong></p>
-          </div>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/studyabroad/studyabroad/' | relative_url }}">
-          <div class="image">
-            <img src="{{ '/assets/images/v1/2015/03/pickup_studyabroad.jpg' | relative_url }}" alt="">
-          </div>
-          <div class="text">
-            <p><strong>留学制度</strong></p>
-          </div>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/assets/docs/2018/06/GSC_留学の注意事項201907.pdf' | relative_url }}" target="_blank">
-          <div class="image">
-            <img src="{{ '/assets/images/v1/201８/06/pickup_studyabroad2_320x160.jpg' | relative_url }}" alt="">
-          </div>
-          <div class="text">
-            <p><strong>留学制度についての注意事項</strong><br>本学部の受験・入学をお考えの方は必ず上記注意事項をご確認ください。</p>
-          </div>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
+<div class="top-news-area item1">
   <div class="medium-4 large-4 columns">
     <aside id="aside">
-      <p class="title">学部ニュース</p>
+      <h2 class="top-news">学部ニュース</h2>
       <ul class="list-news">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:5 %}
           <li>
             <a href="{{ post.url | relative_url }}">
               <span class="date">{{ post.date | date: "%Y.%m.%-d" }}</span>
@@ -92,13 +23,92 @@ layout: default
           </li>
         {% endfor %}
       </ul>
+      <div class="link-summary"><a href="{{ '/news/' | relative_url }}">学部ニュース一覧</a></div>
       <div class="facebook">
-        <div class="fb-page" data-href="https://www.facebook.com/aoyamagsc/" data-height="600"　data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/aoyamagsc/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote></div>
       </div>
-      <ul class="share">
-        <li><a href="https://www.facebook.com/aoyamagsc/" target="_blank"><i class="icon -facebook"></i></a></li>
-        <li><a href="https://twitter.com/search?q=%23AoyamaGSC" target="_blank"><i class="icon -twitter"></i></a></li>
-      </ul>
     </aside>
+   </div>
+   </div>
+
+   <!-- topics-->
+   <div class="top-topix-area item2">
+  <div class="medium-8 large-8 columns">
+        <h2 class="topix-title">トピックス</h2>
+    {{ content }}
+    <div class="top-topix">
+    <ul class="list-pannel">
+          <li>
+        <a href="{{ '/introduction/interview/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/bn_interview_masumoto.jpg' | relative_url }}" alt="学部長インタビュー">
+          </div>
+            <h3>学部長インタビュー</h3>
+            <p>地球社会共生学部の意義と思い、その学びを升本潔学部長が語ります。</p>
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/introduction/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/bn_curriculum.jpg' | relative_url }}" alt="地球社会共生学部とは">
+          </div>
+            <h3>地球社会共生学部とは</h3>
+            <p>地球社会共生学部の概要、ポリシー、カリキュラムを説明します。</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="{{ '/teacher/interview/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/bn_teacher_interview.jpg' | relative_url }}" alt="教員インタビュー">
+          </div>
+            <h3>教員インタビュー</h3>
+            <p>これまでの仕事、自身の授業、受験生へのメッセージを語ります。</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="{{ '/studyabroad/studyabroad/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/bn_study_abroad_top.jpg' | relative_url }}" alt="留学制度">
+          </div>
+            <h3>留学制度</h3>
+            <p>学部の特色となっている留学制度を説明します。</p>
+        </a>
+      </li>
+      
+      <li>
+        <a href="{{ '/studyabroad/notice/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/bn_study_abroad_notes_top.jpg' | relative_url }}" alt="留学制度についての注意事項">
+          </div>
+            <h3>留学制度についての注意事項</h3>
+            <p>本学部の受験・入学をお考えの方は必ず上記注意事項をご確認ください。</p>
+        </a>
+      </li>
+      
+     <li>
+        <a href="{{ '/career/interview/' | relative_url }}">
+                  <div class="topixnews-box">
+          <div class="image item"><span class="flag">新着</span>
+            <img src="{{ '/assets/images/v1/2019/bn_career_interview.jpg' | relative_url }}" alt="卒業生インタビュー">
+          </div>
+            <h3>卒業生インタビュー</h3>
+            <p>卒業生がGSCでの学び、体験、そして自身の成長を語ります。</p>
+        </a>
+      </li>
+ 
+    </ul> 
+   </div>
   </div>
 </div>
+</div>
+<script type="text/javascript">
+$('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:7000,
+    dots:true,
+    prevArrow: '<img src="{{ '/assets/images/slide_arrow_left.gif' | relative_url }}" class="slide-arrow prev-arrow">',
+    nextArrow: '<img src="{{ '/assets/images/slide_arrow_right.gif' | relative_url }}" class="slide-arrow next-arrow">'
+  });
+</script>

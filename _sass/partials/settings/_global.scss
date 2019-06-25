@@ -9,20 +9,20 @@ $rem-base: $rem-base-num * 1px;
 
 // 各 media query の rootsize
 $rootsizes: (
-  rootsize-0: $rem-base-num,   // 30px line-height body text {small-only}
-  rootsize-1: $rem-base-num,   // 30px line-height body text {medium-up}
-  rootsize-2: $rem-base-num,   // 30px line-height body text {large-up}
-  rootsize-3: $rem-base-num,   // 30px line-height body text {xlarge-up}
-  rootsize-4: $rem-base-num    // 30px line-height body text {xxlarge-up}
+  rootsize-0: $rem-base-num,   // 28px line-height body text {small-only}
+  rootsize-1: $rem-base-num,   // 28px line-height body text {medium-up}
+  rootsize-2: $rem-base-num,   // 28px line-height body text {large-up}
+  rootsize-3: $rem-base-num,   // 28px line-height body text {xlarge-up}
+  rootsize-4: $rem-base-num    // 28px line-height body text {xxlarge-up}
 ) !default;
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 // Grid
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-$row-width: rem-calc(1200);
+$row-width: rem-calc(980);
 $total-columns: 12;
-$column-gutter: rem-calc(16 * 3);
+$column-gutter: rem-calc(20);
 
 
 $small-breakpoint-px:  640;

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_campus
 title: 学生生活
 permalink: /campus/
 category: campus

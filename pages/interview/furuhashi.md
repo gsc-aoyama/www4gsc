@@ -1,17 +1,16 @@
 ---
-layout: page
+layout: page_teacher
 title: メディア／空間情報領域≪空間情報≫教授　古橋 大地
 lead: 地図のない地域での海外活動。あなたは何をすべきか。
 permalink: /teacher/interview/furuhashi/
 category: teacher
 ---
 
-{:.card}
-![古橋 大地の写真][image1]{:.image}
+{:.hook-card}
+![古橋 大地の写真][image1]{:.hook-image}
 **メディア／空間情報領域≪空間情報≫教授　古橋 大地**  
-*東京都立大学で衛星リモートセンシング、地理情報システムを学び、2001年 <br>東京大学大学院に所属。現在はマップコンシェルジュ株式会社代表取締役として、地図情報コンサルティングを主業務としている。*
-
-
+東京都立大学で衛星リモートセンシング、地理情報システムを学び、2001年 
+東京大学大学院に所属。現在はマップコンシェルジュ株式会社代表取締役として、地図情報コンサルティングを主業務としている。
 ## これまでの私の仕事
 
 #### GISを用いた地図情報コンサルタントとして、世界で活躍。
@@ -39,7 +38,7 @@ category: teacher
 *   [古橋大地教授が日本の副代表を務めるプロジェクトが「2014年度グッドデザイン賞」を受賞][link2]
 
 
-[link1]: {{ '/introduction/curriculum/#media' | relative_url }}
+[link1]: {{ '/curriculum/#media' | relative_url }}
 [link2]: {{ '/news/2014/391.html' | relative_url }}
 
 [image1]: {{ '/assets/images/v1/2015/03/bg03_interview_img01-300x143.png' | relative_url }}

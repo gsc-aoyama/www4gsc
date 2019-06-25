@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page_introduction
 title: 地球社会共生学部（GSC）とは
 permalink: /introduction/outline/
 category: introduction
-sort: 3
+sort: 1
 ---
 
 * **地球社会のさまざまな課題に挑戦し、調和のとれた持続的発展に寄与したいという高い志**

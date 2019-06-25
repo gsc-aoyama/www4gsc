@@ -1,0 +1,115 @@
+---
+layout: default
+---
+{% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
+{% include category_teacher.html %}
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    <aside id="aside">
+     <div class="{{page.category}}">
+       <ul class="list-menu">
+         <li class="campus"><a href="./" alt="学生生活">学生生活</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/life/expenses/" alt="学費について" target="_blank">学費について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/health/dormitory/dormitory_sagamihara.html" alt="学生寮について" target="_blank">学生寮について</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship_prospective/" alt="奨学金制度（受験生向け）" target="_blank">奨学金制度（受験生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/expenses/scholarship/" alt="奨学金制度・経済援助（在学生向け）" target="_blank">奨学金制度・経済援助（在学生向け）</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/schooltime/" alt="授業・定期試験・学習" target="_blank">授業・定期試験・学習</a></li>
+         <li class="campus"><a href="http://www.aoyama.ac.jp/life/volunteer/" alt="ボランティア活動" target="_blank">ボランティア活動</a></li>
+         <li class="campus"><a href="https://www.aoyama.ac.jp/procedure/certificate/" alt="各種証明書・手続き" target="_blank">各種証明書・手続き</a></li>
+      </ul>
+
+     {% if category_pages %}
+      {{category_pages.length}}
+       <ul class="list-menu">
+       {% for category_page in category_pages %}
+         {% if category_page and category_page.sort  %}
+         <li>
+           <a href="{{ category_page.url | relative_url }}">
+             {{ category_page.title | escape }}
+           </a>
+         </li>
+         {% endif %}
+       {% endfor %}
+      </ul>
+     {% endif %}
+     </div>
+    </aside>
+  </div>
+  <div class="medium-9 large-9 columns">
+    <section id="content">
+      <header class="content-header">
+        <div class="row">
+          <div class="columns">
+            {% assign parent_paths = page.permalink  | replace_first: '/','' | split: '/' %}
+            {% assign parent_paths_first = parent_paths | last %}
+            {% if page.category != 'general' and page.category != parent_paths_first %}
+            {% endif %}
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.lead %}
+            <p class="lead">{{ page.lead | escape }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </header>
+      <section class="content-section">
+        <div class="row">
+          <div class="columns">
+            {{ content }}
+         <div class="content-topix">   
+        <ul class="list-pannel">
+      <li>
+        <a href="{{ '/teacher/interview/furuhashi/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_furuhashi_300x175.png' | relative_url }}" alt="">
+          </div>
+            <p>メディア / 空間情報領域（空間情報）教授<br>古橋 大地</p>
+            </a>
+      </li>
+      <li>
+        <a href="{{ '/teacher/interview/aida/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_aida_300x175.jpg' | relative_url }}" alt="">
+          </div>
+            <p>メディア / 空間情報領域（メディア）教授<br>会田 弘継</p>
+            </a>
+      </li>
+      <li>
+        <a href="{{ '/teacher/interview/takahashi/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_takahashi_300x175.jpg' | relative_url }}" alt="">
+          </div>
+            <p>ソシオロジー領域 教授<br>高橋 良輔</p>
+        </a>
+       </li>
+             <li>
+        <a href="{{ '/teacher/interview/kikuchi/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_kikuchi_300x175.jpg' | relative_url }}" alt="">
+          </div>
+            <p>メディア / 空間情報領域（メディア）教授<br>菊池 尚代</p>
+        </a>
+       </li>
+             <li>
+        <a href="{{ '/teacher/interview/kuwajima/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_kuwajima_300x175.jpg' | relative_url }}" alt="">
+          </div>
+            <p>コラボレーション領域 教授<br>桑島 京子</p>
+        </a>
+       </li>
+             <li>
+        <a href="{{ '/teacher/interview/iwata/' | relative_url }}">
+          <div class="image imgbounce">
+            <img src="{{ '/assets/images/v1/2019/teacher_interview_iwata_300x175.jpg' | relative_url }}" alt="">
+          </div>
+            <p>経済・ビジネス領域 教授<br>岩田 伸人</p>
+        </a>
+       </li>
+    </ul>
+    </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
