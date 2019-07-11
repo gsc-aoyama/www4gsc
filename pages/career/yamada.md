@@ -1,12 +1,12 @@
 ---
 layout: page_career
-title: 卒業生インタビュー 山田和哉
+title: 卒業生インタビュー 山田 和哉
 permalink: /career/yamada/
 category: career
 ---
 {:.hook-card}
 ![卒業生インタビュー山田の写真][image7]{:.hook-image2}
-**山田和哉**  
+**山田 和哉**  
 北海道・私立札幌日本大学高等学校出身  
 **進学先 Washington University in St.Louis(アメリカ)**  
 

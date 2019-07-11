@@ -1,12 +1,12 @@
 ---
 layout: page_career
-title: 卒業生インタビュー 水谷勇貴
+title: 卒業生インタビュー 水谷 勇貴
 permalink: /career/mizutani/
 category: career
 ---
 {:.hook-card}
 ![卒業生インタビュー水谷の写真][image6]{:.hook-image2}
-**水谷勇貴**  
+**水谷 勇貴**  
 東京・私立淑徳巣鴨高等学校出身  
 **進学先 Imperial College London（イギリス）**  
 

@@ -9,100 +9,97 @@ layout: default
 </ul>
 
 <div class="row">
-<div class="top-news-area item1">
-  <div class="medium-4 large-4 columns">
-    <aside id="aside">
-      <h2 class="top-news">学部ニュース</h2>
-      <ul class="list-news">
-        {% for post in site.posts limit:5 %}
-          <li>
-            <a href="{{ post.url | relative_url }}">
-              <span class="date">{{ post.date | date: "%Y.%m.%-d" }}</span>
-              <p>{{ post.title | escape }}</p>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-      <div class="link-summary"><a href="{{ '/news/' | relative_url }}">学部ニュース一覧</a></div>
-      <div class="facebook">
-        <div class="fb-page" data-href="https://www.facebook.com/aoyamagsc/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote></div>
-      </div>
-    </aside>
-   </div>
-   </div>
+    <div class="top-news-area item1">
+        <div class="medium-4 large-4 columns">
+            <aside id="aside">
+                <h2 class="top-news">学部ニュース</h2>
+                <ul class="list-news">
+                    {% for post in site.posts limit:5 %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">
+                            <span class="date">{{ post.date | date: "%Y.%m.%-d" }}</span>
+                            <p>{{ post.title | escape }}</p>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="link-summary"><a href="{{ '/news/' | relative_url }}">学部ニュース一覧</a></div>
+                <div class="facebook">
+                    <div class="fb-page" data-href="https://www.facebook.com/aoyamagsc/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
 
-   <!-- topics-->
-   <div class="top-topix-area item2">
-  <div class="medium-8 large-8 columns">
-        <h2 class="topix-title">トピックス</h2>
-    {{ content }}
-    <div class="top-topix">
-    <ul class="list-pannel">
-          <li>
-        <a href="{{ '/introduction/interview/' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_interview_masumoto.jpg' | relative_url }}" alt="学部長インタビュー">
-          </div>
-            <h3>学部長インタビュー</h3>
-            <p>地球社会共生学部の意義と思い、その学びを升本潔学部長が語ります。</p>
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/introduction/' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_curriculum.jpg' | relative_url }}" alt="地球社会共生学部とは">
-          </div>
-            <h3>地球社会共生学部とは</h3>
-            <p>地球社会共生学部の概要、ポリシー、カリキュラムを説明します。</p>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/teacher/interview/' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_teacher_interview.jpg' | relative_url }}" alt="教員インタビュー">
-          </div>
-            <h3>教員インタビュー</h3>
-            <p>これまでの仕事、自身の授業、受験生へのメッセージを語ります。</p>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/studyabroad/studyabroad/' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_study_abroad_top.jpg' | relative_url }}" alt="留学制度">
-          </div>
-            <h3>留学制度</h3>
-            <p>学部の特色となっている留学制度を説明します。</p>
-        </a>
-      </li>
-      
-      <li>
-        <a href="{{ '/studyabroad/notice/' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_study_abroad_notes_top.jpg' | relative_url }}" alt="留学制度についての注意事項">
-          </div>
-            <h3>留学制度についての注意事項</h3>
-            <p>本学部の受験・入学をお考えの方は必ず上記注意事項をご確認ください。</p>
-        </a>
-      </li>
-      
-     <li>
-        <a href="{{ '/career/interview/' | relative_url }}">
-                  <div class="topixnews-box">
-          <div class="image item"><span class="flag">新着</span>
-            <img src="{{ '/assets/images/v1/2019/bn_career_interview.jpg' | relative_url }}" alt="卒業生インタビュー">
-          </div>
-            <h3>卒業生インタビュー</h3>
-            <p>卒業生がGSCでの学び、体験、そして自身の成長を語ります。</p>
-        </a>
-      </li>
- 
-    </ul> 
-   </div>
-  </div>
-</div>
-</div>
+    <!-- topics-->
+    <div class="top-topix-area item2">
+        <div class="medium-8 large-8 columns">
+            <h2 class="topix-title">トピックス</h2>
+            {{ content }}
+            <div class="top-topix">
+                <ul class="list-pannel">
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/introduction/interview/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_interview_masumoto.jpg' | relative_url }}" alt="学部長インタビュー"></a>
+                        </div>
+                        <h3>学部長インタビュー</h3>
+                        <p>地球社会共生学部の意義と思い、その学びを升本潔学部長が語ります。</p>
+                    </li>
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/introduction/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_curriculum.jpg' | relative_url }}" alt="地球社会共生学部とは"></a>
+                        </div>
+                        <h3>地球社会共生学部とは</h3>
+                        <p>地球社会共生学部の概要、ポリシー、カリキュラムを説明します。</p>
+                    </li>
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/teacher/interview/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_teacher_interview.jpg' | relative_url }}" alt="教員インタビュー"></a>
+                        </div>
+                        <h3>教員インタビュー</h3>
+                        <p>これまでの仕事、自身の授業、受験生へのメッセージを語ります。</p>
+                    </li>
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/studyabroad/studyabroad/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_study_abroad_top.jpg' | relative_url }}" alt="留学制度"></a>
+                        </div>
+                        <h3>留学制度</h3>
+                        <p>学部の特色となっている留学制度を説明します。</p>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <div class="youtube"><iframe src="https://www.youtube.com/embed/33i8m50Xupk?rel=0"></iframe></div>
+                        </div>
+                        <h3>学部紹介ムービー <img src="{{ '/assets/images/v1/2019/icon_new.png' | relative_url }}" alt="新着"></h3>
+                        <p>GSCでの学びの内容を動画でご紹介します。<a href="https://youtu.be/33i8m50Xupk" target="_blank">youtube.comで視聴する <img src="{{ '/assets/images/icon_popup.gif' | relative_url }}" alt="外部リンク"></a></p>
+                    </li>
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/career/interview/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_career_interview.jpg' | relative_url }}" alt="卒業生インタビュー"></a>
+                        </div>
+                        <h3>卒業生インタビュー <img src="{{ '/assets/images/v1/2019/icon_new.png' | relative_url }}" alt="新着"></h3>
+                        <p>卒業生がGSCでの学び、体験、そして自身の成長を語ります。</p>
+                    </li>
+                    <li>
+                        <div class="image imgbounce">
+                            <a href="{{ '/studyabroad/notice/' | relative_url }}">
+                                <img src="{{ '/assets/images/v1/2019/bn_study_abroad_notes_top.jpg' | relative_url }}" alt="留学制度についての注意事項"></a>
+                        </div>
+                        <h3>留学制度についての注意事項</h3>
+                        <p>本学部の受験・入学をお考えの方は必ず上記注意事項をご確認ください。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
 <script type="text/javascript">
 $('.slider').slick({
     autoplay:true,

@@ -285,13 +285,6 @@
 @media screen and (max-width: 120em) {/*1920px以下*/
 
   /*----- FONT -----*/
-  .topic .image {
-    border-top: solid 4px $color_green;
-  }
-
-  .topic .image a {
-    width: 100% !important;
-  }
 
   .topic .text a h2:before {
     content: " ";
@@ -583,13 +576,6 @@ ul.list-sitemap li ul li a.pop:after {
     -ms-transform: scale(1.1, 1.1);
 }
 
-.flag {
-    background-color: $color_green;
-    color: $color_white;
-    padding: 5px 10px;
-    position: absolute;
-}
-
 @media screen and (max-width: 120em) {
     /*1920px以下*/
 
@@ -709,6 +695,10 @@ h2.top-news {
     font-size: 80% !important;
     line-height: 150% !important;
     padding: 0px 5px 8px 5px;
+}
+
+.top-topix a {
+    color: $color_green;
 }
 
 .top-topix ul li {
@@ -1106,6 +1096,7 @@ h2.topixnews-title2 {
 
 .box1 {
     padding: 0 0 8px 30px;
+    margin: 0 0 15px 0 !important;
     font-size: 115% !important;
     font-weight: bold;
     border: solid 1px #00b5ad;
@@ -1116,6 +1107,15 @@ h2.topixnews-title2 {
     background: #f2f2f2;/*背景色*/;
 }
 
+.s-lead{
+    margin: 0 0 30px 0;
+  }
+  
+.career-interview{
+    margin: -5px 0 0 0 !important;
+  }
+    
+    
 /*--テキスト折り返し調整ー--*/ 
 
 .blocktext{ 
@@ -1124,10 +1124,9 @@ h2.topixnews-title2 {
 
 /*ハンバーガーメニュー スクロールー*/
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 40em) { /*640px以下*/
 
-    /*640px以下*/
-    .m-hamburger_content{     /*--ハンバーガーメニュー スクロールー--*/ 
+    .m-hamburger_content{
         overflow-y: scroll;
         height:100%;
         -webkit-overflow-scrolling: touch;
