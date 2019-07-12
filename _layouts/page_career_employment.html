@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
-{% include category_career_top.html %}
+{% include category_career.html %}
 <div class="row">
   <div class="medium-3 large-3 columns">
     <aside id="aside">
@@ -52,38 +52,31 @@ layout: default
         </div>
       </header>
       <section class="content-section">
-        <div class="row">
-          <div class="columns">
-            {{ content }}
-        <div class="content-topix">
-        <ul class="list-pannel">
-          <li><a href="{{ '/career/course' | relative_url }}">
-          <div class="image imgbounce">
-           <img src="{{ '/assets/images/v1/2019/bn_career01.jpg' | relative_url }}" alt="想定される卒業後の進路">
+          <div class="row">
+              <div class="columns">
+                  {{ content }}
+                  <p><img src="{{ '/assets/images/v1/2019/employment01.png' | relative_url }}" alt="2018年度の就職率　95.5％"></p>
+                  <div id="collabo">
+                      <h3 class="section">主な就職先</h3>
+                      <p>ＪＴＢグループ／日本航空／全日本空輸／ＪＡＬスカイ／あいおいニッセイ同和損害保険／ＳＭＢＣ日興証券／アビームコンサルティング／ＪＸＴＧエネルギー／積水化学工業／ＤＫＳＨジャパン／日本アイ・ビー・エム／バンダイ／ブリヂストン／三菱重工業／電通デジタル／楽天／アクセンチュア／三菱UFJ銀行／みずほフィナンシャルグループ／新潮社</p>
+                      <h3 class="section">業種別就職状況</h3>
+                  </div>
+                  <p><img src="{{ '/assets/images/v1/2019/employment02.png' | relative_url }}" alt="業種別就職状況"></p>
+                  <p>※就職についての情報は、2019年5月1日現在の2018年度3月卒業生のデータです。グループで採用している企業はグループ名にて表記しています。</p>
+                  <h2>海外大学院への進学</h2>
+                  <p>本学部での東南アジア半期留学を経た後、自身の関心をさらに追究し、海外の大学院で学びたい学生に対して、留学経験をもつ教員による「海外大学院進学支援室」を設置しています。同室では、海外大学院留学の準備に必要な基礎知識の修得、英語力の向上、出願書類準備に関する支援を行っています。1期生からは、3名の海外大学院合格者を出しました。
+                  </p>
+                  <div id="collabo">
+                      <h3 class="section">2018年度の合格実績</h3>
+                      <p></p>
+                      <ul>
+                          <li>Imperial College London（イギリス） </li>
+                          <li>Washington University in St. Louis（アメリカ）</li>
+                          <li>Nordic Master in Social Work and Welfare Program（ノルウェー、スウェーデン、デンマーク）</li>
+                      </ul>
+                  </div>
+              </div>
           </div>
-            <p>想定される卒業後の進路</p>
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/career/interview' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_career02.jpg' | relative_url }}" alt="卒業生インタビュー">
-          </div>
-            <p>卒業生インタビュー</p>
-        </a>
-      </li>
-      <li>
-        <a href="{{ '/career/employment' | relative_url }}">
-          <div class="image imgbounce">
-            <img src="{{ '/assets/images/v1/2019/bn_career03.jpg' | relative_url }}" alt="実績">
-          </div>
-            <p>実績</p>
-        </a>
-      </li>
-    </ul>
-    </div>
-          </div>
-        </div>
       </section>
     </section>
   </div>

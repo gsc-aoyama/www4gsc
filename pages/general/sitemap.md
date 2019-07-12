@@ -59,6 +59,7 @@ sort: 3
 {:.list-sitemap}
 * [想定される卒業後の進路][career/course]
 * [卒業生インタビュー][career/interview]
+* [実績][career/employment]
 
 {:.sitemap}
 ## [交通アクセス][general/access]
@@ -91,6 +92,7 @@ sort: 3
 [career]: {{ '/career/' | relative_url }}
 [career/course]: {{ '/career/course/' | relative_url }}
 [career/interview]: {{ '/career/interview/' | relative_url }}
+[career/employment]: {{ '/career/employment/' | relative_url }}
 [career/yahooxgsc]: {{ '/career/yahooxgsc/' | relative_url }}
 [career/future]: {{ '/career/future/' | relative_url }}
 [career/needs]: {{ '/career/needs/' | relative_url }}
