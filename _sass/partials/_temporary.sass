@@ -407,6 +407,41 @@ strong
           background-image: url(./images/link_arrow.png)
           background-size: contain
           vertical-align: -3px
+        
+.list-pannel2
+  +float-list
+  margin: -1em 0 0 0
+  li
+    +respond-to("medium-up")
+      width: 50%
+      margin-bottom: 1em
+      &:nth-child(2n)
+        padding-left: 15px
+      &:nth-child(2n+1)
+        clear: left
+        padding-right: 15px
+    +respond-to("small-only")
+    width: 100%
+  a
+    display: block
+  .image
+    img
+      width: 100%
+      display: block
+  .text
+    p
+      +sassline(zeta, $font_sansserif, 1.7, 1.0, all)
+      strong
+        +sassline(epsilon, $font_sansserif_bold, 2.7, 1.0, all)
+        &:before
+          content: ' '
+          display: inline-block
+          height: 20px
+          width: 20px
+          margin-right: 5px
+          background-image: url(./images/link_arrow.png)
+          background-size: contain
+          vertical-align: -3px
 
 
 .map
