@@ -5,7 +5,7 @@ permalink: /studyabroad/studyabroad/
 category: studyabroad
 sort: 2
 ---
-※2020年度以降の入学者対象の留学制度です
+※地球社会共生学部のカリキュラムは、2019年度以降入学者より、大幅に変更となっています。
 
 
 ## "Study Abroad" さあ、世界をその目で見てみよう
