@@ -5,7 +5,9 @@ date:   2019-08-05 00:00
 category: jekyll update
 ---
 
-![campus](http://www.gsc.aoyama.ac.jp/assets/images/news/20190805_departure.jpg)
+![departure1](http://www.gsc.aoyama.ac.jp/assets/images/news/20190805_departure.jpg)
+
+![departure2](http://www.gsc.aoyama.ac.jp/assets/images/news/20190806_departure.jpg)
 
 GSC4期生が留学に飛び立ちます。
 
