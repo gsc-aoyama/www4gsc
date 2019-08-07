@@ -9,6 +9,8 @@ category: jekyll update
 
 ![departure2](http://www.gsc.aoyama.ac.jp/assets/images/news/20190806_departure.jpg)
 
+![departure3](http://www.gsc.aoyama.ac.jp/assets/images/news/20190807_departure.jpg)
+
 GSC4期生が留学に飛び立ちます。
 
 異文化の中で多くの知識と経験を得て、無事に帰国することを教職員一同願っております！
