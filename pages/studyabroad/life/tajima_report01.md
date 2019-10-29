@@ -52,7 +52,7 @@ category: studyabroad
     </tr>
     <tr class="day">
       <th>火</th>
-      <td>Communicative Thaifor foreigners</td>
+      <td>Communicative Thai for foreigners</td>
       <td>Media History</td>
       <td></td>
     </tr>
