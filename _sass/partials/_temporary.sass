@@ -632,3 +632,84 @@ table
               background-image: url(./images/link_arrow.png)
               background-size: contain
               vertical-align: middle
+
+.monthly_report
+  +float-list
+  &>li
+    &::before
+      content: ''
+      border-top: 4px solid $color_green
+      display: block
+      height: 4px
+      width: 100%
+      margin-top: 25px
+    +respond-to("medium-up")
+      width: 50%
+      &:nth-child(2n+1)
+        clear: both
+        padding-right: 15px
+      &:nth-child(2n)
+        padding-left: 15px
+    +respond-to("small-only")
+      width: 100%
+    .text
+      p
+        &.name
+          text-align: center
+          line-height: 1
+          span
+            &.jp
+              +sassline(delta, $font_sansserif_bold, 1.0, 0, all)
+              letter-spacing: .1em
+            &.en
+              +sassline(theta, $font_sansserif_en, 1.0, 0, all)
+              color: $color_gray
+              text-transform: capitalize
+        &.credit
+          text-align: center
+          line-height: 1
+          span
+            &:first-child
+              +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
+              margin-right: .75em
+            &:nth-child(3)
+              +sassline(eta, $font_sansserif, 1.0, 0, all)
+        &.message-title
+          +sassline(eta, $font_sansserif, 1.5, 0, all)
+          text-align: center
+          padding: 0 1em 0 1em
+          strong
+            margin-right: 1em
+        &.report
+          +sassline(eta, $font_sansserif, 2.0, 0, all)
+          text-align: center
+      .base
+        background-color: #dafaf2
+        height: 100%
+        padding: 0.5em 0 1em 0
+      .base2
+        background-color: #f6f6f6
+        height: 100%
+        padding: 0.5em 0em 2em 0em
+      .line
+        width: 60%
+      h3
+      ul
+        +float-list
+        margin-top: .5em
+        li
+          text-align: center
+          width: 100%
+          margin-bottom: .5em
+          a
+            +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
+            padding: 1em !important
+            &:before
+              content: ' '
+              display: inline-block
+              height: 16px
+              width: 16px
+              margin-right: 5px
+              background-image: url(./images/link_arrow.png)
+              background-size: contain
+              vertical-align: middle

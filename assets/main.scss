@@ -1095,7 +1095,7 @@ h2.topixnews-title2 {
 /*--卒業生インタビュー--*/
 
 .box1 {
-    padding: 0 0 8px 30px;
+    padding: 0 30px 8px 30px;
     margin: 0 0 15px 0 !important;
     font-size: 115% !important;
     font-weight: bold;
@@ -1132,3 +1132,50 @@ h2.topixnews-title2 {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+/*--学部留学 マンスリーレポートー--*/
+    
+.interview-report {
+    font-weight: bold !important;
+    font-size: 100% !important;
+    color: $color_black !important;
+    padding: 0 0 15px 0;
+}
+
+.interview-report2 {
+    font-size: 100% !important;
+    color: $color_black !important;
+    padding: 15px 0 15px 0;
+}
+    
+.interview-caption {
+    padding-top: 25px;
+}
+
+.table-report{
+  width:100%;
+  word-wrap : break-word;
+}
+
+.table-report tbody tr th {
+  text-align: center;
+  padding: 5px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+.table-report tbody tr td {
+  padding: 5px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+.time{
+  text-align: center;
+  font-weight: bold;
+  background-color: #dafaf2 !important;
+  color: #444 !important;
+}
+
+.day{
+  background-color: #f6f6f6 !important;
+}
+
