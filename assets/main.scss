@@ -1149,7 +1149,7 @@ h2.topixnews-title2 {
 }
     
 .interview-caption {
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .table-report{
@@ -1158,13 +1158,33 @@ h2.topixnews-title2 {
 }
 
 .table-report tbody tr th {
+  font-size: 85% !important;
   text-align: center;
   padding: 5px !important;
   border: solid 1px #DDDDDD !important;
 }
 
 .table-report tbody tr td {
+  font-size: 85% !important;
   padding: 5px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+.table-report2{
+  width: 100%;
+  word-wrap : break-word;
+}
+
+.table-report2 tbody tr th {
+  font-size: 80% !important;
+  text-align: center;
+  padding: 3px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+.table-report2 tbody tr td {
+  font-size: 80% !important;
+  padding: 3px !important;
   border: solid 1px #DDDDDD !important;
 }
 
@@ -1177,5 +1197,21 @@ h2.topixnews-title2 {
 
 .day{
   background-color: #f6f6f6 !important;
+}
+
+.pc-dsp { display:block; }
+.mobile-dsp { display:none; }
+
+@media screen and (max-width: 51em) {/*816px以下*/
+
+.pc-dsp { display:none; }
+.mobile-dsp { display:block; }
+
+}
+
+@media screen and (min-width: 51em) {/*816px以上*/
+.img-report01{
+  width: 480px;
+}
 }
 
