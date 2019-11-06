@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "GSC学生連合が模擬国連を開催しました"
+date:   2019-11-06 00:00
+category: jekyll update
+---
+
+<div align="center">
+<video class="article-image" src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191106_gakuren.mp4" controls>
+    <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+</video>
+</div>
+
+GSC学生連合は6月22日に今年度第1回目の模擬国連を開催しました。  
+プロジェクトリーダーの酒井佐武利(4期生)を中心に、『ニューヨークの国連本部に「国連カフェ」が創設されることになり、提供するフード及びドリンクメニューを考案する』という設定のもとで、各国大使に扮した学連員による議論・交渉・決議案(成果文書)の作成を行いました。
+
+プロジェクトメンバーはChairperson・Secretary・Pressなどの役割に分かれ、会議の運営を行いました。  
+当日は今年度新入生である5期生も大使として参加し、積極的に意見を述べ、上級生に負けず交渉に臨む姿が幾度も見られました。  
+結果として、普段養う機会が少ないネゴシエーションやファシリテーションの能力を磨くことができました。
+
+国際規模のテーマで、ロジカルかつクリエイティブな発想が求められる模擬国連プロジェクトは、極めてGSC学生連合らしいプロジェクトであり、第1回目として良いスタートを切ることができました。 
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

@@ -674,6 +674,29 @@ h2.top-news {
     font-weight: bold !important;
 }
 
+video.article-image {
+    width: 640px;
+}
+
+@media screen and (max-width: 57em) { /*912px以下*/
+    video.article-image {
+        width: 448px;
+    }
+}
+
+@media screen and (max-width: 40em) { /*640px以下*/
+    video.article-image {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 22em) { /*352px以下*/
+    video.article-image {
+        width: 256px;
+    }
+}
+
+
 /*トピックス*/
 
 .top-topix-area > .columns {
