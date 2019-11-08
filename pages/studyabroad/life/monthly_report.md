@@ -1,7 +1,7 @@
 ---
 layout: page_studyabroad_monthly_report
 title: 学部留学 マンスリーレポート
-permalink: /studyabroad/life/monthly_report
+permalink: /studyabroad/life/monthly_report/
 category: studyabroad
 ---
 
