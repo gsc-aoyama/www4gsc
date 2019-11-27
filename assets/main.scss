@@ -707,6 +707,13 @@ video.article-image {
     margin-top: 5px
 }
 
+h2.topix-title {
+    color: $color_green;
+    font-weight: bold;
+    font-size: 100%;
+    margin-bottom: -10px;
+}
+
 .top-topix h3 {
     color: $color_black;
     font-weight: bold;
@@ -729,43 +736,9 @@ video.article-image {
     padding: 0 1px 0 1px !important;
 }
 
+/*動画*/
 .video-title{
     font-size: 90%;
-}
-
-
-/*新着情報　ボックス型*/
-
-h2.topix-title {
-    color: $color_green;
-    font-weight: bold;
-    font-size: 100%;
-    margin-bottom: -10px;
-}
-
-.topixnews-box {
-    /*トップページ新着情報のBOXライン*/
-    border: solid 3px $color_green;
-    margin-top: -1px;
-}
-
-.topixnews-box p {
-    /*トップページ新着情報のBOXライン*/
-    height: 45px;
-}
-
-h2.topixnews-title {
-    color: $color_green;
-    font-weight: bold;
-    font-size: 115%;
-    margin-bottom: -10px;
-}
-
-h2.topixnews-title2 {
-    color: $color_green;
-    font-weight: bold;
-    font-size: 115%;
-    margin-bottom: 5px;
 }
 
 /* ========================== *\
@@ -922,18 +895,6 @@ h2.topixnews-title2 {
     padding: 0 0 0 30px;
 }
 
-/*コンテンツページ　新着情報　ボックス型*/
-.content-news {
-    border: solid 3px $color_green;
-    margin-top: 3px;
-}
-
-.content-news p {
-    font-size: 80%;
-    height: 45px;
-    padding: 5px;
-    line-height: 150%;
-}
 
 /*PC以外トップページコンテンツの並び順指定*/
 
@@ -1012,7 +973,7 @@ h2.topixnews-title2 {
     color: red !important;
 }
     
-/*--理事長インタビュー2019--*/
+/*--インタビュー--*/
 .interview-faq {
     font-family: 'メイリオ', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important;
     font-weight: bold !important;
