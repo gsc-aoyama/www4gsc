@@ -12,8 +12,8 @@ category: studyabroad
 ![マンスリーレポート石塚さんの写真][image1]{:.hook-image}
 **さまざまな言語が飛び交う多国籍キャンパスで、  
 私の留学生活がスタートしています。**
-<br />
-<br />
+<br>
+<br>
 **石塚 彩世 ２年**  
 神奈川県立厚木高等学校出身  
 
@@ -42,6 +42,7 @@ category: studyabroad
 {:.box2}
 ### 　石塚さんの9月の、とある1週間
 
+<!-- 816px以上表示 -->
 <div class="pc-dsp">
 <table class="table-report2">
   <tbody>
@@ -126,6 +127,8 @@ category: studyabroad
   </tbody>
 </table>
 </div>
+
+<!-- 816px以下表示 -->
 <div class="mobile-dsp">
 <table class="table-report2">
   <tbody>
@@ -146,7 +149,7 @@ category: studyabroad
       </td>
     </tr>
     
-        <tr>
+    <tr>
       <th class="time">火曜日</th>
     </tr>
     <tr>
@@ -162,7 +165,7 @@ category: studyabroad
       </td>
     </tr>
     
-            <tr>
+    <tr>
       <th class="time">水曜日</th>
     </tr>
     <tr>
@@ -178,7 +181,7 @@ category: studyabroad
       </td>
     </tr>
     
-            <tr>
+    <tr>
       <th class="time">木曜日</th>
     </tr>
     <tr>
@@ -194,7 +197,7 @@ category: studyabroad
       </td>
     </tr>
     
-            <tr>
+    <tr>
       <th class="time">金曜日</th>
     </tr>
     <tr>
@@ -210,7 +213,7 @@ category: studyabroad
       </td>
     </tr>
     
-            <tr>
+    <tr>
       <th class="time">土曜日</th>
     </tr>
     <tr>
@@ -226,7 +229,7 @@ category: studyabroad
       </td>
     </tr>
     
-            <tr>
+    <tr>
       <th class="time">日曜日</th>
     </tr>
     <tr>
@@ -243,7 +246,8 @@ category: studyabroad
     </tr>
   </tbody>
 </table>
-</div> 
+</div>
+
 ※マラヤ大学には時間割という概念が存在しないので、青学の時間割を基に大体の時間で作成
 
 {:.interview-faq}
