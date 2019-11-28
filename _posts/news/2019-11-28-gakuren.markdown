@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "GSC学生連合国際交流企画ジャパンツアー　着物姿で留学生と鎌倉観光"
+date:   2019-11-28 00:00
+category: jekyll update
+---
+
+<div align="center">
+<video class="article-image" src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191128_gakuren.mp4" controls>
+    <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+</video>
+</div>
+
+GSC学生連合は、2019年11月17日に国際交流プロジェクトJapan Tourを実施しました。
+
+GSCに在学している留学生の多くが9月に来日します。
+Japan Tourは、留学生に日本の文化体験を通して日本人学生との文化交流の機会を持ってもらおうと、学連が企画・考案してきたものです。
+昨年度までは群馬県の草津や新潟県の湯沢へ行き、南国出身者の多いGSCの留学生に雪遊びを体験してもらいました。
+
+今年度は、留学生に着物を体験してもらうことを主な目的とし、日帰りで鎌倉へ行きました。
+学連の学生は17名、そして留学生は9名が参加し、全員が着物姿になり、お昼は釜めしを食べ、鶴岡八幡宮を参拝し、小町通りを散策しました。
+
+学連学生も留学生も互いに歩み寄り、英語と日本語の両言語でのコミュニケーションを楽しみ、親睦を深めた、満足度の高いTourとなりました。
+
+このような「繋がり」を育むことが出来たプロジェクトは、今後のGSC学生連合にとって貴重な経験となるでしょう。
+
+<div style="text-align: right;">
+山下貴之学連長（GSC3年）、地球社会共生学部GSC学生連合顧問林拓也（教授）
+</div>
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
