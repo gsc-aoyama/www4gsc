@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "GSC Field Trip to Yokohama!! ー 交換留学生と横浜に行ってきました!!"
+date:   2019-12-20 00:00
+category: jekyll update
+---
+
+![field trip1](http://www.gsc.aoyama.ac.jp/assets/images/news/20191124_fieldtrip1.jpg)
+
+交換留学生とGSC日本人学生で横浜へフィールドトリップに行ってきました。  
+横浜では、カップヌードルミュージアムで体験学習をした後、赤レンガ倉庫をめぐり、横浜開港資料館を訪問しました。
+
+カップヌードルミュージーアムでは、自分だけのオリジナルヌードルを作りながら、日本が誇るインスタントラーメン技術について、体験しながら学びました。カップに描いた絵を見せ合ったり、カップに入れる具材を選んだり。交換留学生もGSC日本人学生も、皆とても楽しそうでした。  
+赤レンガ倉庫では、ランチや買い物、写真撮影など思い思いの時間を過ごし、最後は、開港資料館にて幕末・開港期から昭和初期までの横浜の歴史の学びでトリップを締めくくることができました。
+
+GSC日本人学生と交換留学生が楽しく交流を深めることができた、笑顔いっぱいのフィールドトリップの一日となりました！
+
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191124_fieldtrip2.jpg" alt="field trip2" width="300" style="vertical-align: top">　
+<img src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191124_fieldtrip3.jpg" alt="field trip3" width="300" style="vertical-align: top">
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
