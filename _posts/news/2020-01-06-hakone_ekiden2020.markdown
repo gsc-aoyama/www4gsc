@@ -5,7 +5,7 @@ date:   2020-01-06 00:00
 category: jekyll update
 ---
 
-![field trip1](http://www.gsc.aoyama.ac.jp/assets/images/news/20200106_hakone_gscmembers.jpg)
+![hakone_gsc_members](http://www.gsc.aoyama.ac.jp/assets/images/news/20200106_hakone_gscmembers.jpg)
 
 2020年1月2日、3日開催された第96回東京箱根間往復大学駅伝競走（箱根駅伝）において、青山学院大学は2年ぶり総合優勝を果たしました。
 
