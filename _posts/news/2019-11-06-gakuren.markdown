@@ -5,8 +5,8 @@ date:   2019-11-06 00:00
 category: jekyll update
 ---
 
-<div align="center">
-<video class="article-image" src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191106_gakuren.mp4" controls>
+<div class="article-image16_9">
+<video src="http://www.gsc.aoyama.ac.jp/assets/images/news/20191106_gakuren.mp4" controls>
     <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
 </video>
 </div>

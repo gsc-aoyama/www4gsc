@@ -9,13 +9,18 @@ category: jekyll update
 
 2020年1月2日、3日開催された第96回東京箱根間往復大学駅伝競走（箱根駅伝）において、青山学院大学は2年ぶり総合優勝を果たしました。
 
-GSCからは原晋監督（地球社会共生学部教授）、１区𠮷田圭太選手（3年）、９区神林勇太選手（3年）、チームエントリーで早田祥也選手（2年）が参加しました。
+GSCからは原晋監督（地球社会共生学部教授）、１区𠮷田圭太選手（3年、写真右から2番目）、９区神林勇太選手（3年、左から2番目）、チームエントリーで早田祥也選手（2年、一番右）が参加しました。
 改めて、本当におめでとうございます！
+また、久畱戸黛良（くるとたいら）選手（2年、一番左）は惜しくもエントリーとはなりませんでしたが、来年の活躍をみんなで応援しています。
 
 また、原監督、𠮷田選手、神林選手は地球社会共生学部受験生応援ムービーにも登場いたします。
 よろしければ、ご覧ください！
 
-[https://youtu.be/7af6qexDkp0](https://youtu.be/7af6qexDkp0)
+
+<div class="movie-wrap16_9">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/7af6qexDkp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+[youtube.comで視聴する](https://youtu.be/7af6qexDkp0)
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
