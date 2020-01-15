@@ -16,7 +16,7 @@ sort: 1
   <li><a href="https://github.com/gsc-aoyama/fieldstudy-guide4gsc/raw/master/FieldStudyGuide2018/FieldWorkReport2018.docx" class="doc" target="_blank">フィールト゛ワーク実施報告書</a></li>
   <li><a href="https://github.com/gsc-aoyama/fieldstudy-guide4gsc/raw/master/FieldStudyGuide2018/FieldWorkReport2018.docx" class="doc" target="_blank">フィールト゛ワーク実施報告書</a></li>
   <li><a href="https://github.com/gsc-aoyama/www4gsc/raw/gh-pages/assets/docs/2018/09/8%20%E5%AE%BF%E6%B3%8A%E3%82%92%E4%BC%B4%E3%81%86%E8%AA%BF%E6%9F%BB%E7%AD%89_%E8%A8%88%E7%94%BB%E6%9B%B8_%E6%9B%B8%E5%BC%8F.docx" class="doc" target="_blank">宿泊を伴う調査等計画書書式</a></li>
-  <li><a href="https://github.com/gsc-aoyama/templetes4fieldstudy/blob/master/v1.2/README.md" class="pop" target="_blank">調査結果報告用ホ゜スターテンフ゜レート</a></li>
+  <li><a href="https://github.com/gsc-aoyama/templetes4fieldstudy/blob/master/v1.3/README.md" class="pop" target="_blank">調査結果報告用ホ゜スターテンフ゜レート</a></li>
 </ul>
 
 <!--
