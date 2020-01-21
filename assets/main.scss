@@ -1130,7 +1130,9 @@ h2.topix-title {
 }
     
 .interview-caption {
-    padding-top: 30px;
+    font-size: 95% !important;
+    margin-top: -10px !important;
+    padding-bottom: 30px;
 }
 
 .table-report{
@@ -1176,6 +1178,11 @@ h2.topix-title {
   color: #444 !important;
 }
 
+.note{
+  font-weight: bold;
+  font-size: 80%;
+}
+    
 .day{
   background-color: #f6f6f6 !important;
 }
@@ -1193,6 +1200,7 @@ h2.topix-title {
 @media screen and (min-width: 51em) {/*816px以上*/
 .img-report01{
   width: 480px;
+  text-align:center!important;
 }
 }
 
