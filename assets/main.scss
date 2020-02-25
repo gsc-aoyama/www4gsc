@@ -389,7 +389,7 @@
 }
 
 #aside .list-menu li:nth-child(n+2) a {
-  margin-left: 0.5em !important;
+  margin-left: 1.1em !important;
 }
 
 #aside .introduction li.campus,
@@ -1133,6 +1133,13 @@ h2.topix-title {
     font-size: 95% !important;
     margin-top: -10px !important;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 51em) {/*816px以下*/
+
+.interview-caption {
+    text-align: left;
+}
 }
 
 
