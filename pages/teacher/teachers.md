@@ -164,6 +164,8 @@ sort: 2
       <li><a href="https://raweb1.jm.aoyama.ac.jp/aguhp/KgApp?kyoinId=ymidgsgbggo" target="_blank">プロフィール・主要研究業績</a></li>
     </ul>    
   </div>
+  <p class="message-title"><strong>受験生への一言</strong></p>
+  <p class="message">地球社会共生学部は様々なマインドを認めあう教職員、学生の集まりです。私は主にリーダーシップ論演習を担当します。これからの人生を熱く生き抜くマインドを共に考えていきます。新時代の幕開けを地球社会共生学部で学んでいきましょう。</p>
   </div>
 </li>
  <li>
