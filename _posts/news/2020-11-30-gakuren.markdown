@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "佼成学園女子中高でワークショップを行いました（その１）"
+date:   2020-11-30 00:00
+category: jekyll update
+---
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xYl_dM42HOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+2020年度GSC学連高校訪問プロジェクトと一環として、佼成学園女子中学高等学校SG（スーパーグローバル）クラスの高校1年生を対象に、同校で「共感と課題発見能力」についてのワークショップ（計4回）を開催しました。  
+「共感・デザイン思考」をテーマに、参加者は、課題発見から問題解決に向けてのプロセスを学びます。
+
+1回目のワークショップは、「インタビューを通じて課題発見をしよう」と題し、本年10月30日（金）に開催しました。参加者は、「相手への共感」を意識しながら、高校の先生方へインタビューを行い、先生方がいま抱えている身近な問題に関する情報を集めます。  
+悪戦苦闘しながらも、相手へ寄り添う気持ちを大切に、一生懸命取り組んでいました。  
+その後、インタビューで得た情報を整理し、グループごとに課題を1ー3個に絞る作業を行いました。
+
+参加者からは、「新しい気づきや発見がたくさんありました」、「今回身につけたインタビュースキルを今後の活動に生かしていきたい」などの声があがりました。  
+常識や前提を疑い、相手に共感することで、課題を発見することができ、とても充実した回になりました。  
+次回の第2回目は、発見した課題の原因について分析していきます。
+
+![photo-ws1](http://www.gsc.aoyama.ac.jp/assets/images/news/20201130_gakuren1.jpg)
+
+![photo-ws2](http://www.gsc.aoyama.ac.jp/assets/images/news/20201130_gakuren2.jpg)
+
+![photo-ws3](http://www.gsc.aoyama.ac.jp/assets/images/news/20201130_gakuren3.jpg)
+
+<div style="text-align: right;">
+GSC学連連合顧問　林拓也  
+プロジェクトリーダー　3年　間篠花音  
+プロジェクトサブリーダー　2年　高橋楓  
+動画作成　3年　内田麻友
+</div>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
