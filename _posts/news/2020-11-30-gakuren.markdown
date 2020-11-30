@@ -27,7 +27,7 @@ category: jekyll update
 ![photo-ws3](http://www.gsc.aoyama.ac.jp/assets/images/news/20201130_gakuren3.jpg)
 
 <div style="text-align: right;">
-GSC学連連合顧問　林拓也  
+GSC学生連合顧問　林拓也  
 プロジェクトリーダー　3年　間篠花音  
 プロジェクトサブリーダー　2年　高橋楓  
 動画作成　3年　内田麻友
