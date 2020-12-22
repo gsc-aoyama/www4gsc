@@ -35,12 +35,12 @@ sort: 3
 
 {:.list-sitemap}
 * <a href="http://www.aoyama.ac.jp/life/expenses/" target="_blank" class="pop">学費について</a>
-* <a href="http://www.aoyama.ac.jp/life/health/dormitory/dormitory_sagamihara/" target="_blank" class="pop">学生寮について</a>
+* <a href="http://www.aoyama.ac.jp/life/health/dormitory/dormitory_sagamihara.html" target="_blank" class="pop">学生寮について</a>
 * <a href="http://www.aoyama.ac.jp/life/expenses/scholarship_prospective/" target="_blank" class="pop">奨学金制度（受験生向け）</a>
 * <a href="http://www.aoyama.ac.jp/life/expenses/scholarship/" target="_blank" class="pop">奨学金制度・経済援助（在学生向け）</a>
 * <a href="http://www.aoyama.ac.jp/life/schooltime/" target="_blank" class="pop">授業・定期試験・学習</a>
+* [GSC学生連合][campus/gscstunion]
 * <a href="http://www.aoyama.ac.jp/life/volunteer/" target="_blank" class="pop">ボランティア活動</a>
-* <a href="http://gscstunion.com/" target="_blank" class="pop">GSC学生連合</a>
 * <a href="https://www.aoyama.ac.jp/procedure/certificate/" target="_blank" class="pop">各種証明書・手続き</a>
 
 {:.sitemap}
@@ -110,3 +110,4 @@ sort: 3
 [general/sitepolicy]: {{ '/general/sitepolicy/' | relative_url }}
 [general/contact]: {{ '/general/contact/' | relative_url }}
 [general/sitemap]: {{ '/general/sitemap/' | relative_url }}
+[campus/gscstunion]: {{ '/campus/gscstunion/' | relative_url }}

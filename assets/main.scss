@@ -1214,3 +1214,48 @@ h2.topix-title {
 }
 }
 
+
+/*動画用パネルレイアウト*/
+
+.video-pannel {
+    margin: 50px 0;
+}
+
+.video-pannel h3 {
+    color: $color_black !important;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 0 5px;
+}
+
+.video-pannel p {
+    font-size: 90% !important;
+    line-height: 150% !important;
+    padding: 0px 5px 10px 5px;
+}
+
+.video-pannel a {
+    color: $color_green;
+    text-decoration: underline;
+}
+
+.video-pannel ul li {
+    margin: 0px !important;
+    padding: 0 2px 15px 2px !important;
+}
+
+
+/*----- ファイル別アイコン表示 外部リンク-----*/
+#content .content-section .row .columns p a[class="pop"]:after {
+    content: url("./images/icon_popup.gif");
+    position: relative;
+    bottom: -0.1em;
+    margin-left: 0.5em;
+}
+
+#content .content-section .row .columns ul li a[class="pop"]:after {
+    content: url("./images/icon_popup.gif");
+    position: relative;
+    bottom: -0.1em;
+    margin-left: 0.5em;
+}

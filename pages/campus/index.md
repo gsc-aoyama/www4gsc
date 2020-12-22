@@ -13,6 +13,7 @@ category: campus
 	<li><a href="http://www.aoyama.ac.jp/life/expenses/scholarship_prospective/" alt="奨学金制度（受験生向け）" target="_blank">奨学金制度（受験生向け）</a></li>
 	<li><a href="http://www.aoyama.ac.jp/life/expenses/scholarship/" alt="奨学金制度・経済援助（在学生向け）" target="_blank">奨学金制度・経済援助（在学生向け）</a></li>
 	<li><a href="http://www.aoyama.ac.jp/life/schooltime/" alt="授業・定期試験・学習" target="_blank">授業・定期試験・学習</a></li>
+	<li><a href="{{ '/campus/gscstunion/' | relative_url }}" alt="GSC学生連合">GSC学生連合</a></li>
 	<li><a href="http://www.aoyama.ac.jp/life/volunteer/" alt="ボランティア活動" target="_blank">ボランティア活動</a></li>
 	<li><a href="https://www.aoyama.ac.jp/procedure/certificate/" alt="各種証明書・手続き" target="_blank">各種証明書・手続き</a></li>
 </ul>
