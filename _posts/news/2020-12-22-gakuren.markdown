@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "佼成学園女子中高でワークショップを行いました（その2）"
+date:   2020-12-22 00:00
+category: jekyll update
+---
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XzPDNFxedqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+第2回目（2020年11月6日開催）は、「本質の課題を見わけよう」の回でした。  
+前回行った先生たちへのインタビューを通じて発見した課題を検討し、課題に隠された本質的な部分を探しました。  
+そして議論を重ねながら、簡単な解決策をいくつか導き出しました。
+
+先生たちの抱える課題を解決するためにはどうすればよいのか？解決するための答えは一つでは終わりません。  
+出てきた答えに対し、「そのためにはどうする？」と問い続けることで、課題解決のための因果関係を明らかにしていきます。
+
+生徒さん達は、マインドマップを使いながら、問いに対する答えを付箋に書き出し模造紙に貼っていく作業を行いました。  
+課題に隠された本質的な部分を見つけ出すのに頭を悩ませながらも、チームのみんなと意見を交わしながら積極的な姿勢で取り組んでいたことが、とても印象的でした。  
+最後に、課題解決をするための道筋を模造紙にまとめ、各チームで発表しました。
+
+<ul class="list-grid">
+    <li><p><img src="https://www.gsc.aoyama.ac.jp/assets/images/news/20201222_gakuren1.jpg"></p></li>
+    <li><p><img src="https://www.gsc.aoyama.ac.jp/assets/images/news/20201222_gakuren2.jpg"></p></li>
+</ul>
+
+ここまでが、第2回目の内容です。
+
+生徒さん達からは、  
+「得た情報だけではどうしても考えが狭まってしまうので、相手に共感し、相手の立場になって自分で考えてみることも大切だと改めて実感した」  
+「マインドマップというものはただ単に線でつなぐのではなく、事柄同士の因果関係というものがキーポイントになると気づいた」  
+などの声があがりました。
+
+「そのためには？」という問いを繰り返すことで、課題に隠された本質的な部分を探し出し、課題解決のための道筋を、因果関係をもとに明らかにすることができました。
+
+次回の第3回目は、いよいよ課題に対する解決策を決定します。
+
+![photo-ws3](https://www.gsc.aoyama.ac.jp/assets/images/news/20201222_gakuren3.jpg)
+
+<div style="text-align: right;">
+GSC学生連合顧問　林拓也  
+プロジェクトリーダー　3年　間篠花音  
+プロジェクトサブリーダー　2年　高橋楓  
+動画作成　3年　内田麻友
+</div>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
