@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "佼成学園女子中高でワークショップを行いました（その3）"
+date:   2021-01-18 00:00
+category: jekyll update
+---
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hTlOiq85CuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+2020年11月13日に佼成学園女子中高で、「課題の解決策を決定しよう」と題した第3回のワークショップを行いました。
+前回自分たちで考えた解決策に対する感想を、先生（課題を持つ当事者）からいただき、それをもとに解決策の練り直しを行いました。
+
+自分たちでは気づかなかった当事者ならではの意見をもらうことで、課題の本質に迫り、課題解決策の精度を高めることができました。
+最後に、色々と出されたアイデアの中から最終的な解決策を決定し、最終回での発表へ向けて準備を行いました。
+
+生徒さん達は、チームの中で自然に役割分担をし、協力し合いながら作業を進めていました。
+生徒さん達からは、「今回情報を整理したことにより本質的な課題が見つけやすく、いい解決策が出せた」「PDCAサイクル（plan,do,check,action）を意識して解決策をよりよくブラッシュアップする」などの声があがりました。
+
+さあ、次はいよいよ最終回です。  
+生徒さん達の頑張りの成果は、果たしてどうだったのでしょうか…。  
+次回をお楽しみに！
+
+![photo-ws1](https://www.gsc.aoyama.ac.jp/assets/images/news/20210118_gakuren1.jpg)
+
+![photo-ws2](https://www.gsc.aoyama.ac.jp/assets/images/news/20210118_gakuren2.jpg)
+
+![photo-ws3](https://www.gsc.aoyama.ac.jp/assets/images/news/20210118_gakuren3.jpg)
+
+<div style="text-align: right;">
+GSC学生連合顧問　林拓也（教授）  
+プロジェクトリーダー　3年　間篠花音  
+プロジェクトサブリーダー　2年　高橋楓  
+動画作成　3年　内田麻友
+</div>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
