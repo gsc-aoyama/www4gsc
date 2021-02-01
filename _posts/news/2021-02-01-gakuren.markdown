@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "佼成学園女子中高でワークショップを行いました（最終回）"
+date:   2021-02-01 00:00
+category: jekyll update
+---
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKaZiXQqdSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+2020年11月20日、佼成学園女子中高で第4回ワークショップ、「最終発表」を行いました。  
+先生たちの抱える課題に対し、生徒さんたちが最終的な解決策を発表しました。
+
+生徒さんたちは少し緊張しながらも、これまでの回を通じて自分たちが練り上げてきた解決策を、グループごとに発表し、意見交換の場でも活発に発言していました。
+
+生徒さんたちからは、  
+「デザイン思考をこれからの学びに利用したい」  
+「今回のワークショップは新鮮に感じ、相手の抱える課題を自分に置き換えたり、普段の生活を踏まえて解決策を考えることができた」  
+などの声があがりました。
+
+今年度のワークショップは、「共感と課題発見能力」をテーマとし、「共感・デザイン思考」をベースにしながら4回にわけて実施しました。  
+相手に共感することでその人の持つ課題を発見し、その課題に隠された本質的な部分をロジカルに探していくことで、解決策を導き出す。  
+教える大学生も、教わる高校生も、今回のGSCらしいワークショップを通じて、他者に共感することの大切さを学べたと思います。
+
+次回は、佼成学園女子中学高等学校（東京都）、上田高等学校（長野県）、そして青学大GSC学生連合の三者による”Student
+Workshop”（オンライン合同研究発表会）を行う予定です（2021年2月13日）。  
+乞うご期待！
+
+![photo-ws1](http://www.gsc.aoyama.ac.jp/assets/images/news/20210201_gakuren2.jpg)
+
+![photo-ws2](http://www.gsc.aoyama.ac.jp/assets/images/news/20210201_gakuren3.jpg)
+
+![photo-ws3](http://www.gsc.aoyama.ac.jp/assets/images/news/20210201_gakuren1.jpg)
+
+<div style="text-align: right;">
+GSC学生連合顧問　林拓也（教授）  
+プロジェクトリーダー　3年　間篠花音  
+プロジェクトサブリーダー　2年　高橋楓  
+動画作成　3年　内田麻友
+</div>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
