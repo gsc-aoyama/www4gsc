@@ -5,7 +5,7 @@ date:   2021-03-10 00:00
 category: jekyll update
 ---
 
-2020年10月18日に行われた、TED×Aoyama GakuinUに、地球社会共生学部（GSC）の教員、松永エリック教授と古橋大地教授が参加しました。以下で動画が公開されています。
+TED×Aoyama GakuinUに、地球社会共生学部（GSC）の教員、松永エリック教授（2020年10月18日）と古橋大地教授（2015年9月13日）が参加しました。以下で動画が公開されています。
 
 「共感」とクリエイティブが世界を変える -アフターコロナの世界を作るのに必要なもの-  
 Eric Matsunaga, Masanobu
@@ -16,7 +16,7 @@ Eric Matsunaga, Masanobu
 
 
 地図ｘウェブ＝新しい国際貢献のカタチ  
-Taichi Huruhashi
+Taichi Furuhashi
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z6fQnpVHDhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
