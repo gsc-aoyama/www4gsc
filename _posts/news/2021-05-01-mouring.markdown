@@ -23,9 +23,7 @@ https://docs.google.com/forms/d/e/1FAIpQLScD9fHDGQmIslFClPcfCwdVkxAKNu_nyq8l_HYu
 
 
 青山学院大学地球社会共生学部　
-
 高橋良輔先生追悼の会実行委員会　
-
 問い合わせ先 tsuito_nokai@gsc.aoyama.ac.jp
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
