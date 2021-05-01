@@ -19,13 +19,13 @@ category: jekyll update
 なお、既に参加連絡を下さっているかたや、参加のご意向だったかたの中で、現在の新型コロナウイルス感染症等の状況を考えて参加を見合わせる代わりに、メッセージの送付をご希望のかたがいらっしゃいましたら、以下のフォームにて、会の当日までにメッセージをお寄せください。
 
 メッセージフォーム
-https://docs.google.com/forms/d/e/1FAIpQLScD9fHDGQmIslFClPcfCwdVkxAKNu_nyq8l_HYu7bs_o58mqg/viewform?usp=sf_link
+[https://docs.google.com/forms/d/e/1FAIpQLScD9fHDGQmIslFClPcfCwdVkxAKNu_nyq8l_HYu7bs_o58mqg/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLScD9fHDGQmIslFClPcfCwdVkxAKNu_nyq8l_HYu7bs_o58mqg/viewform?usp=sf_link)
 
 
 青山学院大学地球社会共生学部　
 高橋良輔先生追悼の会実行委員会　
 
-問い合わせ先 tsuito_nokai@gsc.aoyama.ac.jp
+問い合わせ先 [tsuito_nokai@gsc.aoyama.ac.jp](tsuito_nokai@gsc.aoyama.ac.jp)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
