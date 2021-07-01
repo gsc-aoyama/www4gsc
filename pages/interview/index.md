@@ -1,7 +1,3 @@
 ---
-layout: page_interview_index
-title: 教員インタビュー
-permalink: /teacher/interview/
-category: teacher
-sort: 3
+redirect_to: "http://www.aoyama.ac.jp/faculty/gsc/"
 ---
