@@ -1,16 +1,3 @@
 ---
-layout: page_general
-title: お問い合わせ
-permalink: /general/contact/
-category: general
-sort: 2
+redirect_to: "http://www.aoyama.ac.jp/faculty/gsc/"
 ---
-
-
-## 青山学院大学 地球社会共生学部
-
-〒252-5258  
-神奈川県相模原市中央区淵野辺 5-10-1 相模原キャンパス  
-[info@gsc.aoyama.ac.jp](mailto:info@gsc.aoyama.ac.jp)
-
-※このメールアカウントは広報取材・講演申込用のものではありません。
