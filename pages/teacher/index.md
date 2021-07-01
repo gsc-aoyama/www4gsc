@@ -1,9 +1,3 @@
 ---
-layout: page_teacher_index
-title: 教員紹介
-permalink: /teacher/
-category: teacher
-sort: 1
+redirect_to: "http://www.aoyama.ac.jp/faculty/gsc/"
 ---
-
-地球社会共生学部ではどのような学びが待っているのでしょう。地球社会共生学部の教員の紹介と、その授業内容をお伝えします。
