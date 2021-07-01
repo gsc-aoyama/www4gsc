@@ -1,7 +1,3 @@
 ---
-layout: page_curriculum_index
-title: カリキュラム
-permalink: /curriculum/
-category: curriculum
-sort: 1
+redirect_to: "http://www.aoyama.ac.jp/faculty/gsc/"
 ---
