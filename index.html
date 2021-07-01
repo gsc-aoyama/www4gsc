@@ -1,3 +1,3 @@
 ---
-redirect_to: "http://www.aoyama.ac.jp/faculty/gsc/"
+redirect_to: "https://www.aoyama.ac.jp/faculty/gsc/"
 ---
